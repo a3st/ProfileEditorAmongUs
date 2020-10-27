@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2B1E6D43-5D34-4C99-98C5-79C043869606}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProfileEditor</RootNamespace>
+    <AssemblyName>ProfileEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Application.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="DB.cs" />
+    <Compile Include="ItemInfo.cs" />
+    <Compile Include="ProfileConfig.cs" />
+    <Compile Include="SkinWindow.xaml.cs">
+      <DependentUpon>SkinWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="SkinWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Body\Body_001.jpg" />
+    <Resource Include="Resources\Body\Body_002.jpg" />
+    <Resource Include="Resources\Body\Body_003.jpg" />
+    <Resource Include="Resources\Body\Body_004.jpg" />
+    <Resource Include="Resources\Body\Body_005.jpg" />
+    <Resource Include="Resources\Body\Body_006.jpg" />
+    <Resource Include="Resources\Body\Body_007.jpg" />
+    <Resource Include="Resources\Body\Body_008.jpg" />
+    <Resource Include="Resources\Body\Body_009.jpg" />
+    <Resource Include="Resources\Body\Body_010.jpg" />
+    <Resource Include="Resources\Body\Body_011.jpg" />
+    <Resource Include="Resources\Body\Body_012.jpg" />
+    <Resource Include="Resources\Body\Body_013.jpg" />
+    <Resource Include="Resources\Body\Body_014.jpg" />
+    <Resource Include="Resources\Body\Body_015.jpg" />
+    <Resource Include="Resources\Heads\Head_001.jpg" />
+    <Resource Include="Resources\Heads\Head_002.jpg" />
+    <Resource Include="Resources\Heads\Head_003.jpg" />
+    <Resource Include="Resources\Heads\Head_004.jpg" />
+    <Resource Include="Resources\Heads\Head_005.jpg" />
+    <Resource Include="Resources\Heads\Head_006.jpg" />
+    <Resource Include="Resources\Heads\Head_007.jpg" />
+    <Resource Include="Resources\Heads\Head_008.jpg" />
+    <Resource Include="Resources\Heads\Head_009.jpg" />
+    <Resource Include="Resources\Heads\Head_010.jpg" />
+    <Resource Include="Resources\Heads\Head_011.jpg" />
+    <Resource Include="Resources\Heads\Head_012.jpg" />
+    <Resource Include="Resources\Heads\Head_013.jpg" />
+    <Resource Include="Resources\Heads\Head_014.jpg" />
+    <Resource Include="Resources\Heads\Head_015.jpg" />
+    <Resource Include="Resources\Heads\Head_016.jpg" />
+    <Resource Include="Resources\Heads\Head_017.jpg" />
+    <Resource Include="Resources\Heads\Head_018.jpg" />
+    <Resource Include="Resources\Heads\Head_019.jpg" />
+    <Resource Include="Resources\Heads\Head_020.jpg" />
+    <Resource Include="Resources\Pets\Pet_001.jpg" />
+    <Resource Include="Resources\Pets\Pet_002.jpg" />
+    <Resource Include="Resources\Pets\Pet_003.jpg" />
+    <Resource Include="Resources\Pets\Pet_004.jpg" />
+    <Resource Include="Resources\Pets\Pet_005.jpg" />
+    <Resource Include="Resources\Pets\Pet_006.jpg" />
+    <Resource Include="Resources\Pets\Pet_007.jpg" />
+    <Resource Include="Resources\Pets\Pet_008.jpg" />
+    <Resource Include="Resources\Pets\Pet_009.jpg" />
+    <Resource Include="Resources\Pets\Pet_010.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\None.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Application.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Application.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
