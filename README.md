@@ -9,5 +9,3 @@
 ## Credits ##
 #### Dmitriy Lukovenko ####
 
-### Thanks for reading! ###
-
