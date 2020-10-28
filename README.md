@@ -5,7 +5,7 @@
 ### If you find bugs, write to the issues on the Github repository ###
 
 ## Screenshot ##
-![](screenshot.png)
+![](screenshot.PNG)
 
 ## Credits ##
 Dmitriy Lukovenko
