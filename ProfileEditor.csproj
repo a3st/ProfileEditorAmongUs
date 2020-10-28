@@ -154,5 +154,82 @@
   <ItemGroup>
     <Resource Include="Application.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Heads\Head_021.jpg" />
+    <Resource Include="Resources\Heads\Head_022.jpg" />
+    <Resource Include="Resources\Heads\Head_023.jpg" />
+    <Resource Include="Resources\Heads\Head_024.jpg" />
+    <Resource Include="Resources\Heads\Head_025.jpg" />
+    <Resource Include="Resources\Heads\Head_026.jpg" />
+    <Resource Include="Resources\Heads\Head_027.jpg" />
+    <Resource Include="Resources\Heads\Head_028.jpg" />
+    <Resource Include="Resources\Heads\Head_029.jpg" />
+    <Resource Include="Resources\Heads\Head_030.jpg" />
+    <Resource Include="Resources\Heads\Head_031.jpg" />
+    <Resource Include="Resources\Heads\Head_032.jpg" />
+    <Resource Include="Resources\Heads\Head_033.jpg" />
+    <Resource Include="Resources\Heads\Head_034.jpg" />
+    <Resource Include="Resources\Heads\Head_035.jpg" />
+    <Resource Include="Resources\Heads\Head_036.jpg" />
+    <Resource Include="Resources\Heads\Head_037.jpg" />
+    <Resource Include="Resources\Heads\Head_038.jpg" />
+    <Resource Include="Resources\Heads\Head_039.jpg" />
+    <Resource Include="Resources\Heads\Head_040.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Heads\Head_041.jpg" />
+    <Resource Include="Resources\Heads\Head_042.jpg" />
+    <Resource Include="Resources\Heads\Head_043.jpg" />
+    <Resource Include="Resources\Heads\Head_044.jpg" />
+    <Resource Include="Resources\Heads\Head_045.jpg" />
+    <Resource Include="Resources\Heads\Head_046.jpg" />
+    <Resource Include="Resources\Heads\Head_047.jpg" />
+    <Resource Include="Resources\Heads\Head_048.jpg" />
+    <Resource Include="Resources\Heads\Head_049.jpg" />
+    <Resource Include="Resources\Heads\Head_050.jpg" />
+    <Resource Include="Resources\Heads\Head_051.jpg" />
+    <Resource Include="Resources\Heads\Head_052.jpg" />
+    <Resource Include="Resources\Heads\Head_053.jpg" />
+    <Resource Include="Resources\Heads\Head_054.jpg" />
+    <Resource Include="Resources\Heads\Head_055.jpg" />
+    <Resource Include="Resources\Heads\Head_056.jpg" />
+    <Resource Include="Resources\Heads\Head_057.jpg" />
+    <Resource Include="Resources\Heads\Head_058.jpg" />
+    <Resource Include="Resources\Heads\Head_059.jpg" />
+    <Resource Include="Resources\Heads\Head_060.jpg" />
+    <Resource Include="Resources\Heads\Head_061.jpg" />
+    <Resource Include="Resources\Heads\Head_062.jpg" />
+    <Resource Include="Resources\Heads\Head_063.jpg" />
+    <Resource Include="Resources\Heads\Head_064.jpg" />
+    <Resource Include="Resources\Heads\Head_065.jpg" />
+    <Resource Include="Resources\Heads\Head_066.jpg" />
+    <Resource Include="Resources\Heads\Head_067.jpg" />
+    <Resource Include="Resources\Heads\Head_068.jpg" />
+    <Resource Include="Resources\Heads\Head_069.jpg" />
+    <Resource Include="Resources\Heads\Head_070.jpg" />
+    <Resource Include="Resources\Heads\Head_071.jpg" />
+    <Resource Include="Resources\Heads\Head_072.jpg" />
+    <Resource Include="Resources\Heads\Head_073.jpg" />
+    <Resource Include="Resources\Heads\Head_074.jpg" />
+    <Resource Include="Resources\Heads\Head_075.jpg" />
+    <Resource Include="Resources\Heads\Head_076.jpg" />
+    <Resource Include="Resources\Heads\Head_077.jpg" />
+    <Resource Include="Resources\Heads\Head_078.jpg" />
+    <Resource Include="Resources\Heads\Head_079.jpg" />
+    <Resource Include="Resources\Heads\Head_080.jpg" />
+    <Resource Include="Resources\Heads\Head_081.jpg" />
+    <Resource Include="Resources\Heads\Head_082.jpg" />
+    <Resource Include="Resources\Heads\Head_083.jpg" />
+    <Resource Include="Resources\Heads\Head_084.jpg" />
+    <Resource Include="Resources\Heads\Head_085.jpg" />
+    <Resource Include="Resources\Heads\Head_086.jpg" />
+    <Resource Include="Resources\Heads\Head_087.jpg" />
+    <Resource Include="Resources\Heads\Head_088.jpg" />
+    <Resource Include="Resources\Heads\Head_089.jpg" />
+    <Resource Include="Resources\Heads\Head_090.jpg" />
+    <Resource Include="Resources\Heads\Head_091.jpg" />
+    <Resource Include="Resources\Heads\Head_092.jpg" />
+    <Resource Include="Resources\Heads\Head_093.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
