@@ -5,7 +5,3 @@
 #### If you find bugs, write to the issues on the Github repository ####
 
 ![](screenshot.PNG)
-
-## Credits ##
-#### Dmitriy Lukovenko ####
-
